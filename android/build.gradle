@@ -23,10 +23,10 @@ apply plugin: 'com.android.library'
 
 android {
     namespace "yeniellandestoy.native_shared_preferences" 
-    compileSdkVersion 28
+    compileSdkVersion 35
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 23
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
